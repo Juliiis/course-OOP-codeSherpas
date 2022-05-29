@@ -18,7 +18,13 @@ var lavadora = {
         if(quitar === true){
             return this.pesoTotal - 1
         }
+    },
+
+    añadirDetergenteYsuavizante(){
+        const añadir = true
+        if(añadir === true){
+            return "Has añadido detergente y suavizante"
+        }
     }
 }
-console.log(lavadora.introducirRopa(true))
-console.log(lavadora.quitarRopa(true))
+console.log(lavadora.añadirDetergenteYsuavizante())
