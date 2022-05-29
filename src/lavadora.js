@@ -3,8 +3,6 @@ var lavadora = {
     modelo: "WCA020 WCS Active",
     capacidad: 7,
     pesoTotal: 3,
-    programaSeleccionado: "rapido",
-    programaEnProceso: true,
 
     introducirRopa(){
         const introducir = true
@@ -25,6 +23,7 @@ var lavadora = {
         if(añadir === true){
             return "Has añadido detergente y suavizante"
         }
-    }
+    },
+
+
 }
-console.log(lavadora.añadirDetergenteYsuavizante())
